@@ -97,7 +97,7 @@ elif page == "calculator":
     }
 
     # 📥 Input Form
-    st.markdown("<div class='input-title'>📥 Input Dashboard</div>", unsafe_allow_html=True)
+    st.markdown("<div class='input-title'>📥 Input </div>", unsafe_allow_html=True)
 
     with st.form("calculator_form"):
         col1, col2, col3 = st.columns(3)
@@ -132,7 +132,7 @@ elif page == "calculator":
                     return str(x)
 
                 # 📤 Output Section
-                st.markdown("<div class='output-title'>📤 Output Estimates</div>", unsafe_allow_html=True)
+                st.markdown("<div class='output-title'>📤 Potential</div>", unsafe_allow_html=True)
                 col4, col5, col6 = st.columns(3)
                 with col4:
                     st.markdown("Repairs / Month")
